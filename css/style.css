@@ -845,4 +845,20 @@ button:focus-visible {
   line-height: 29px;
   color: #F16D7F;
 }
+
+.top_info_product {
+  min-height: 777px;
+  background-color: #F7F7F7;
+}
+
+.product_detail_image_foto {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.product_card_product_info {
+  min-height: 601px;
+  border: 1px solid #EAEAEA;
+}
 /*# sourceMappingURL=style.css.map */
