@@ -177,7 +177,7 @@
   width: 12px;
   height: 92px;
   display: block;
-  top: -3px;
+  top: 40px;
   left: -26px;
   padding-left: 63px;
 }
@@ -855,10 +855,102 @@ button:focus-visible {
   display: block;
   margin: auto;
   padding-top: 10px;
+  position: absolute;
+  margin-left: 284px;
 }
 
 .product_card_product_info {
   min-height: 601px;
   border: 1px solid #EAEAEA;
+  position: relative;
+  z-index: 1;
+  margin-top: -65px;
+  margin-bottom: 130px;
+  background-color: #FFFFFF;
+}
+
+.breadcrumbs_list {
+  list-style: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 65px;
+}
+
+.breadcrumbs_list_item::after {
+  content: "/";
+}
+
+.breadcrumbs_title {
+  color: #F16D7F;
+}
+
+.product_card_product_info_title {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 12px;
+}
+
+.product_card_product_info_title:after {
+  content: url("../image/line_product.svg");
+  position: absolute;
+  width: 63px;
+  height: 3px;
+  left: 540px;
+  top: 93px;
+}
+
+.product_card_product_info_subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  padding-top: 27px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.product_card_product_info_txt {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  padding-left: 292px;
+  padding-right: 294px;
+}
+
+.product_card_product_info_price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  display: inline-block;
+  padding-left: 531px;
+  padding-top: 32px;
+}
+
+.product_card_product_info_line {
+  width: 60%;
+  margin: auto;
+  border: 1px solid #EAEAEA;
+  margin-top: 65px;
+}
+
+.card_box_button_product {
+  border: 1px solid #FF6A6A;
+  width: 211px;
+  height: 47px;
+  background-color: #FFFFFF;
+}
+
+.card_box_btn_basket_product_sv {
+  fill: #EF5B70;
+  margin: 0 23px 0 0;
 }
 /*# sourceMappingURL=style.css.map */
