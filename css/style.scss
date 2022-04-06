@@ -836,6 +836,7 @@ background-position: left;
 
 .top_info_catalog{
     background-color:  #F8F3F4;
+    margin-bottom: 96px;
 }
 .top_info_box_catalog{
     min-width: 1140px;
@@ -970,3 +971,37 @@ background-position: left;
     fill: #EF5B70;
     margin: 0 23px 0 0;
 }
+.card_box_product_list_item{
+    max-width: 652px;
+    min-height: 306px;
+    list-style: none;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 10px 15px #eaeaea;
+    margin-bottom: 40px;
+}
+.brand_card{
+    display: flex;
+}
+.brand_card_title{
+    padding-top: 22px;
+    padding-left: 31px;
+    padding-bottom: 42px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+}
+.brand_card_info{
+    padding-bottom: 6px;
+    padding-left: 31px;
+}
+.brand_card_info_last{
+    padding-left: 31px;
+}
+.brand_card_info_price{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
